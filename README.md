@@ -1,5 +1,24 @@
-# Responsive-Grid-Gallery
-This gallery can perfectly fit into the size of the screen.
+# swiggyclone
 
-It is made using Vuejs with some CSS styles and HTML tags
+## Project setup
+```
+npm install
+```
 
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
