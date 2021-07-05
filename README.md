@@ -1,24 +1,4 @@
-# swiggyclone
+## Here I have created a gallery using Vuejs, CSS style and HTML tags
 
-## Project setup
-```
-npm install
-```
+## This gallery will be perfectly responsive depending on the size of the screen
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
