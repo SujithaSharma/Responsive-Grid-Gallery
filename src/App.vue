@@ -1,8 +1,18 @@
 <template>
   <div>
-      <router-view/>
+    <router-view></router-view>
   </div>
 </template>
 
-<style>
+<script>
+export default {
+  data() {
+    return {
+      count: 0,
+    };
+  },
+};
+</script>
+
+<style scoped>
 </style>

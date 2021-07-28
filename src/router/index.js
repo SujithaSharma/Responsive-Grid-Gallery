@@ -1,17 +1,32 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import hello from '../components/hello.vue'
-
+import Grid from "../components/Grid.vue"
+import First from "../components/first.vue"
+import property from"../components/Property.vue"
+import frompopup from "../components/Frompopup.vue"
 
 const routes = [
   {
-    name: 'hello',
-    component: hello
+    name:'Frompopup',
+    component:frompopup
+  },
+  {
+    name:'property',
+    component:property
+  },
+  {
+    name: 'first',
+    component : First
+  },
+  {
+    name: 'Grid',
+    component: Grid
   },
 ]
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes
+  routes,
 })
 
 export default router
+
