@@ -6,6 +6,10 @@ import frompopup from "../components/Frompopup.vue"
 
 const routes = [
   {
+    name: 'Grid',
+    component: Grid
+  },
+  {
     name:'Frompopup',
     component:frompopup
   },
@@ -16,10 +20,6 @@ const routes = [
   {
     name: 'first',
     component : First
-  },
-  {
-    name: 'Grid',
-    component: Grid
   },
 ]
 
